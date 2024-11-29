@@ -1,5 +1,5 @@
 {
-    "name": "unopim/deleteapi",
+    "name": "unopim-vikas/deleteapi",
     "description": "A plugin for handling DELETE APIs in UnoPim.",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Unopim\\DeleteApi\\Providers\\DeleteApiServiceProvider"
+                "Unopim-vikas\\DeleteApi\\Providers\\DeleteApiServiceProvider"
             ]
         }
     },
