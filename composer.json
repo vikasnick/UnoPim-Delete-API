@@ -1,0 +1,19 @@
+{
+    "name": "webkul/deleteapi",
+    "description": "A plugin for handling DELETE APIs in UnoPim.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webkul\\DeleteApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\DeleteApi\\Providers\\DeleteApiServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
